@@ -27,6 +27,8 @@ const items = ['Pencil', 'Notebook', 'yo-yo', 'Gum'];
 
 function getLength(arr, cb) {
   // getLength passes the length of the array into the callback.
+  const result = items.filter(items => items.length > 4);
+  console.log(result);
 }
 
 function last(arr, cb) {
