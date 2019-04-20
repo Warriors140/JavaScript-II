@@ -6,17 +6,17 @@ function mother () {
   const motherage = "48";
   const motherkids = "6";
   console.log(`My name is ${mothername}. I am ${motherage}. I have ${motherkids} kids.`);
-  debugger;
+  // debugger;
 
   function friend () {
     const friendname = "Cindy";
     console.log(`${friendname}`);
-    debugger;
+    // debugger;
 
     function bestfriend () {
       const bestfriendname = "Brandy";
       console.log(`${bestfriendname}`);
-      debugger;
+      // debugger;
     }
     bestfriend();
   }
