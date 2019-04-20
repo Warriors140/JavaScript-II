@@ -1,6 +1,28 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
 
+function mother () {
+  const mothername = "Adrienne";
+  const motherage = "48";
+  const motherkids = "6";
+  console.log(`My name is ${mothername}. I am ${motherage}. I have ${motherkids} kids.`);
+  // debugger;
+
+  function friend () {
+    const friendname = "Cindy";
+    console.log(`${friendname}`);
+    // debugger;
+
+    function bestfriend () {
+      const bestfriendname = "Brandy";
+      console.log(`${bestfriendname}`);
+      // debugger;
+    }
+    bestfriend();
+  }
+  friend();
+}
+mother();
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
